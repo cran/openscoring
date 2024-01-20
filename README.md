@@ -7,6 +7,7 @@
 
 [![R-CMD-check](https://github.com/jakub-jedrusiak/openscoring/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jakub-jedrusiak/openscoring/actions/workflows/R-CMD-check.yaml)
 ![CRAN/METACRAN Version](https://img.shields.io/cran/v/openscoring)
+[![codecov](https://app.codecov.io/gh/jakub-jedrusiak/openscoring/graph/badge.svg?token=nH9qzHWEqR)](https://app.codecov.io/gh/jakub-jedrusiak/openscoring)
 <!-- badges: end -->
 
 Creativity research involves the need to score open-ended problems.
@@ -40,7 +41,7 @@ library(openscoring)
 
 df <- tibble::tibble(
   stimulus = c("brick", "hammer", "sponge"),
-  response = c("butter for trolls", "make Thor jeallous", "make it play in a kids show")
+  response = c("butter for trolls", "make Thor jealous", "make it play in a kids show")
 )
 
 df
@@ -48,7 +49,7 @@ df
 #>   stimulus response                   
 #>   <chr>    <chr>                      
 #> 1 brick    butter for trolls          
-#> 2 hammer   make Thor jeallous         
+#> 2 hammer   make Thor jealous          
 #> 3 sponge   make it play in a kids show
 
 scored_df <- oscai(df, stimulus, response, model = "davinci2")
@@ -67,6 +68,6 @@ scored_df
 #>   stimulus response                    .originality
 #>   <chr>    <chr>                              <dbl>
 #> 1 brick    butter for trolls                    3  
-#> 2 hammer   make Thor jeallous                   2.7
+#> 2 hammer   make Thor jealous                    2.7
 #> 3 sponge   make it play in a kids show          2.7
 ```

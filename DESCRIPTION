@@ -1,6 +1,6 @@
 Package: openscoring
-Title: Open Scoring API Client
-Version: 1.0.0
+Title: 'Open Scoring' API Client
+Version: 1.0.1
 Authors@R: c(
     person(
         "Jakub", "Jędrusiak",
@@ -37,6 +37,14 @@ Authors@R: c(
         )
     ),
     person(
+      "Pier-Luc", "de Chantal",
+      role = "ctb",
+      comment = c(
+        ORCID = "0000-0002-6974-6172",
+        affiliation = "Université du Québec à Montréal"
+      )
+    ),
+    person(
         "Kelly", "Berthiaume",
         role = "ctb",
         comment = c(
@@ -54,9 +62,13 @@ Description: Creativity research involves the need to score open-ended problems.
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.2.3
+URL: https://github.com/jakub-jedrusiak/openscoring
+BugReports: https://github.com/jakub-jedrusiak/openscoring/issues
 Imports: cli, glue, httr, jsonlite, lifecycle, rlang, stringr
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-01-18 23:46:51 UTC; jakub
+Packaged: 2024-01-19 17:04:30 UTC; jakub
 Author: Jakub Jędrusiak [aut, cre, cph]
     (<https://orcid.org/0000-0002-6481-8210>, University of Wroclaw),
   Peter Organisciak [ctb] (<https://orcid.org/0000-0002-9058-2280>,
@@ -65,8 +77,10 @@ Author: Jakub Jędrusiak [aut, cre, cph]
     of North Texas),
   Denis Dumas [ctb] (<https://orcid.org/0000-0002-8446-4720>, University
     of Georgia),
+  Pier-Luc de Chantal [ctb] (<https://orcid.org/0000-0002-6974-6172>,
+    Université du Québec à Montréal),
   Kelly Berthiaume [ctb] (<https://orcid.org/0000-0002-5285-0512>,
     University of North Texas)
 Maintainer: Jakub Jędrusiak <kuba23031999@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-19 11:00:02 UTC
+Date/Publication: 2024-01-20 14:10:02 UTC
