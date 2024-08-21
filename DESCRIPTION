@@ -1,6 +1,6 @@
 Package: openscoring
 Title: 'Open Scoring' API Client
-Version: 1.0.1
+Version: 1.0.3
 Authors@R: c(
     person(
         "Jakub", "Jędrusiak",
@@ -61,14 +61,15 @@ Description: Creativity research involves the need to score open-ended problems.
   you can score your own data directly from an R script.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 URL: https://github.com/jakub-jedrusiak/openscoring
 BugReports: https://github.com/jakub-jedrusiak/openscoring/issues
-Imports: cli, glue, httr, jsonlite, lifecycle, rlang, stringr
+Imports: cli, dplyr, glue, httr, jsonlite, lifecycle, purrr, rlang,
+        stringr
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-01-19 17:04:30 UTC; jakub
+Packaged: 2024-08-12 13:29:37 UTC; jakub
 Author: Jakub Jędrusiak [aut, cre, cph]
     (<https://orcid.org/0000-0002-6481-8210>, University of Wroclaw),
   Peter Organisciak [ctb] (<https://orcid.org/0000-0002-9058-2280>,
@@ -83,4 +84,4 @@ Author: Jakub Jędrusiak [aut, cre, cph]
     University of North Texas)
 Maintainer: Jakub Jędrusiak <kuba23031999@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-01-20 14:10:02 UTC
+Date/Publication: 2024-08-21 13:10:01 UTC

@@ -1,11 +1,11 @@
-101cfcf1a26452a91546924ad18803d3 *DESCRIPTION
+52a71a39d977b7dbdc2d34c7dacbbab2 *DESCRIPTION
 831388ba5a5cdfb8497e91ac0d9b861b *LICENSE
 d6287095b528b9339b0153b1bcdaed6e *NAMESPACE
-4f2e4205365e8e54254d76a6d7921469 *NEWS.md
+ba30577adcce5333585c59441fe5fa52 *NEWS.md
 1cd653597e47329f59bd31ee826ffdeb *R/openscoring-package.R
-7c940021473c7a7881d6b142324953eb *R/oscai.R
-165c33598ad1ab7c3f1e33169eeb2f4b *README.md
-8faf250d78a120ba4c7ea2186efddd24 *build/partial.rdb
+2bac6884bc665ee502a2c8da9a6c5169 *R/oscai.R
+aeac203a6bd948e898ad2bda98f7c8f0 *README.md
+aa5e5a2cbfaea3d9b6cdbe378ac48cee *build/partial.rdb
 a1cbaf3f328e8d74e747faacf640c7fc *man/figures/lifecycle-archived.svg
 6f521fb1819410630e279d1abf88685a *man/figures/lifecycle-defunct.svg
 391f696f961e28914508628a7af31b74 *man/figures/lifecycle-deprecated.svg
@@ -16,6 +16,6 @@ f41ed996be135fb35afe00641621da61 *man/figures/lifecycle-questioning.svg
 ed42e3fbd7cc30bc6ca8fa9b658e24a8 *man/figures/lifecycle-stable.svg
 bf2f1ad432ecccee3400afe533404113 *man/figures/lifecycle-superseded.svg
 207950e597a6568e942a4e5f5d1f2483 *man/openscoring-package.Rd
-92f499ef6ec42f896de38b9a3a71f05c *man/oscai.Rd
+07536021454b8f340c98f0a7d2c7be3d *man/oscai.Rd
 008324d2d794d46b5ccbc47f9de515d4 *tests/testthat.R
 cbac881e784b0a80e22ca91b1cbf3fbe *tests/testthat/test-oscai.R
