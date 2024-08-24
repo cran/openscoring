@@ -1,6 +1,6 @@
 Package: openscoring
 Title: 'Open Scoring' API Client
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: c(
     person(
         "Jakub", "Jędrusiak",
@@ -69,7 +69,7 @@ Imports: cli, dplyr, glue, httr, jsonlite, lifecycle, purrr, rlang,
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-08-12 13:29:37 UTC; jakub
+Packaged: 2024-08-23 22:08:49 UTC; jakub
 Author: Jakub Jędrusiak [aut, cre, cph]
     (<https://orcid.org/0000-0002-6481-8210>, University of Wroclaw),
   Peter Organisciak [ctb] (<https://orcid.org/0000-0002-9058-2280>,
@@ -84,4 +84,4 @@ Author: Jakub Jędrusiak [aut, cre, cph]
     University of North Texas)
 Maintainer: Jakub Jędrusiak <kuba23031999@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-08-21 13:10:01 UTC
+Date/Publication: 2024-08-24 07:30:02 UTC

@@ -1,9 +1,9 @@
-52a71a39d977b7dbdc2d34c7dacbbab2 *DESCRIPTION
+23c61ec56c15e2f270cbcbbc0c520675 *DESCRIPTION
 831388ba5a5cdfb8497e91ac0d9b861b *LICENSE
 d6287095b528b9339b0153b1bcdaed6e *NAMESPACE
-ba30577adcce5333585c59441fe5fa52 *NEWS.md
+5646cc216b6642b5e6d9c79fd1ee1bc9 *NEWS.md
 1cd653597e47329f59bd31ee826ffdeb *R/openscoring-package.R
-2bac6884bc665ee502a2c8da9a6c5169 *R/oscai.R
+0f353384166abb445f6a2b73c1fb70db *R/oscai.R
 aeac203a6bd948e898ad2bda98f7c8f0 *README.md
 aa5e5a2cbfaea3d9b6cdbe378ac48cee *build/partial.rdb
 a1cbaf3f328e8d74e747faacf640c7fc *man/figures/lifecycle-archived.svg
@@ -16,6 +16,6 @@ f41ed996be135fb35afe00641621da61 *man/figures/lifecycle-questioning.svg
 ed42e3fbd7cc30bc6ca8fa9b658e24a8 *man/figures/lifecycle-stable.svg
 bf2f1ad432ecccee3400afe533404113 *man/figures/lifecycle-superseded.svg
 207950e597a6568e942a4e5f5d1f2483 *man/openscoring-package.Rd
-07536021454b8f340c98f0a7d2c7be3d *man/oscai.Rd
+f797cbdf4f774c8a8ec3b87b66a51171 *man/oscai.Rd
 008324d2d794d46b5ccbc47f9de515d4 *tests/testthat.R
 cbac881e784b0a80e22ca91b1cbf3fbe *tests/testthat/test-oscai.R
