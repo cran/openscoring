@@ -7,7 +7,8 @@
 
 [![R-CMD-check](https://github.com/jakub-jedrusiak/openscoring/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jakub-jedrusiak/openscoring/actions/workflows/R-CMD-check.yaml)
 ![CRAN/METACRAN Version](https://img.shields.io/cran/v/openscoring)
-[![codecov](https://codecov.io/gh/jakub-jedrusiak/openscoring/graph/badge.svg?token=nH9qzHWEqR)](https://app.codecov.io/gh/jakub-jedrusiak/openscoring)
+[![Codecov test
+coverage](https://codecov.io/gh/jakub-jedrusiak/openscoring/graph/badge.svg)](https://app.codecov.io/gh/jakub-jedrusiak/openscoring)
 <!-- badges: end -->
 
 Creativity research involves the need to score open-ended problems.
@@ -52,7 +53,7 @@ df
 #> 2 hammer   make Thor jealous          
 #> 3 sponge   make it play in a kids show
 
-scored_df <- oscai(df, stimulus, response, model = "chatgpt2")
+scored_df <- ocsai(df, stimulus, response, model = "chatgpt2")
 
 scored_df
 #> # A tibble: 3 × 3
@@ -60,7 +61,7 @@ scored_df
 #>   <chr>    <chr>                              <dbl>
 #> 1 brick    butter for trolls                    3  
 #> 2 hammer   make Thor jealous                    3.5
-#> 3 sponge   make it play in a kids show          3.6
+#> 3 sponge   make it play in a kids show          3.3
 ```
 
 The `"1.5"` model works for multiple languages:
@@ -71,7 +72,7 @@ df_polish <- tibble::tibble(
   response = c("masło dla trolli", "wywoływanie zazdrości u Thora", "postać w programie dla dzieci")
 )
 
-oscai(df_polish, stimulus, response, model = "1.5", language = "Polish")
+ocsai(df_polish, stimulus, response, model = "1.5", language = "Polish")
 #> # A tibble: 3 × 3
 #>   stimulus response                      .originality
 #>   <chr>    <chr>                                <dbl>
