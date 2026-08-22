@@ -1,3 +1,10 @@
+# openscoring 1.2.0
+
+* Update API calls to the new format (payload instead of query)
+* Add API key argument
+* Added the logprob scoring
+* The default chunk size is now 25
+
 # openscoring 1.1.0
 
 * Added `ocsai2` and `ocsai2-xs`
